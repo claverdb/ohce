@@ -46,7 +46,7 @@ class OhceTest extends TestCase
     {
         $result = $this->ohce->rotate("Stop!");
 
-        $this->assertEquals("Adios", $result);
+        $this->assertEquals("Adios ", $result);
     }
 
 }
